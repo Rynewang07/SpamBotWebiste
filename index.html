@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>SpamBot</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,7 +17,7 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#product" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRODUCT</a>
+    <a href="#product" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRODUCT DETAILS</a>
     <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
     <a href="privacy.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRIVACY POLICY</a>
@@ -26,8 +26,8 @@ body {font-family: "Lato", sans-serif}
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#product" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRODUCT</a>
-  <a href="index.html#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+  <a href="#product" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRODUCT DETAILS</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
   <a href="/privacy.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRIVACY POLICY</a>
 </div>
@@ -62,26 +62,21 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="product">
     <h1 class="w3-wide">SPAMBOT EXTENSION</h1>
     <p class="w3-opacity"><i>Gmail made easier</i></p>
-    <p class="w3-justify"><b>Spambot</b> is a Google Chrome extension that brings organization to your inbox. Using advanced accessibility through a chrome extension,
-     this product helps highlight and isolate certain emails in your inbox, using trained AI programs to find trends and to deduct which emails may be potentially unncecessary
-    or dangerous. The extension works as a scraper, which tracks the current emails by subject and sender, checks using the AI to see if they are 'safe' or 'unsafe', and then
-  highlights based on the decision made in that step. The AI is still in progress, but the product has a basic functionality at the time being.</p>
+    <p class="w3-justify"><b>Spambot</b> is a Google Chrome extension that brings organization to your inbox. Using advanced accessibility </p>
+    <h4>Checkout the extension here: <a href="https://chrome.google.com/webstore/detail/spambot/lcejpembjkfmikkfpellihcldaidnhdd">SpamBot Extension</a> </h4>
     <div class="w3-row w3-padding-32"><h2 class="w3-wide">TECH STACK</h2></div>
-    <div>
-      <div class="w3-half">
-        <img src="html.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-        <h3><p><strong>Frontend</strong></p></h3>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>Javascript</p>
+    <div> 
+      <div class="w3-third">
+        <p>Frontend</p>
+        
       </div>
-      <div class="w3-half">
-        <img src="python.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-        <h3><p><strong>Backend</strong></p></h3>
-        <p>Python Flask</p>
-        <p>AJAX</p>
-        <p>JSON</p>
-        <p>Sklearn Library</p>
+      <div class="w3-third">
+        <p>Backend</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Additional</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
       </div>
     </div>
   </div>
@@ -92,7 +87,7 @@ body {font-family: "Lato", sans-serif}
   <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Any questions?</i></p>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
         <i class="fa fa-map-marker" style="width:30px"></i> Irvine, CA<br>
@@ -168,3 +163,4 @@ window.onclick = function(event) {
 
 </body>
 </html>
+
